@@ -67,6 +67,7 @@ public class MainActivity extends ActionBarActivity
         mNavDrawer = new NavigationDrawer(this, mViewPager);
 
       //  mNavDrawer.onPostCreate(savedInstanceState);
+
         Log.i(TAG, "onPostCreate");
     }
 

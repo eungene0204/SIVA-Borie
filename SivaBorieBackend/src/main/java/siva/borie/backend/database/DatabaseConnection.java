@@ -11,11 +11,12 @@ import javax.servlet.http.HttpServlet;
  */
 public class DatabaseConnection extends HttpServlet
 {
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/siva_arlimi_test";
-    private static final String JDBC_DRIVER= "com.mysql.jdbc.Driver";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/borie_backend";
+    private static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
     private static final String DB_POOL_DRIVER = "org.apache.commons.dbcp.PoolingDriver";
     private static final String ID = "root";
-    private static final String PASS = "siva0708";
+    private static final String PASS = "siva0204";
+
 
     public static Connection getConnection()
     {

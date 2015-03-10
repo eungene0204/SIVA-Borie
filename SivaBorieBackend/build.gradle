@@ -24,10 +24,12 @@ targetCompatibility = JavaVersion.VERSION_1_7
 dependencies {
     appengineSdk 'com.google.appengine:appengine-java-sdk:1.9.14'
     compile 'javax.servlet:servlet-api:2.5'
-    compile 'org.json:json:20141113'
+    compile 'org.json:json:20140107'
+    compile files('src/main/libs/mysql-connector-java-5.1.17-bin.jar')
 }
 
 appengine {
+
     downloadSdk = true
     appcfg {
         oauth2 = true

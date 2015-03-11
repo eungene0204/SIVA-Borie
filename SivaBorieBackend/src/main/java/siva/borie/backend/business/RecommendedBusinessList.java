@@ -32,10 +32,9 @@ public class RecommendedBusinessList extends HttpServlet
         System.out.println("doGet");
         System.out.println(bizArray.toString());
 
-        OutputStreamWriter writer = new OutputStreamWriter(resp.getOutputStream(), "utf-8");
+        OutputStreamWriter writer = new OutputStreamWriter(resp.getOutputStream(),"UTF-8");
         writer.write(bizArray.toString());
         writer.close();
-
     }
 
     private JSONArray readDB()

@@ -22,10 +22,11 @@ import siva.borie.backend.database.DatabaseUtils;
 /**
  * Created by Eungjun on 2015-03-09.
  */
-public class RecommendedBusinessList extends HttpServlet
+public class RecommendedBusinessListServlet extends HttpServlet
 {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException,
+            IOException
     {
         JSONArray bizArray = readDB();
 
@@ -94,15 +95,5 @@ public class RecommendedBusinessList extends HttpServlet
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
     {
-        JSONArray bizArray = readDB();
-
-        System.out.println("doPost");
-        System.out.println(bizArray.toString());
-
-        OutputStreamWriter writer = new OutputStreamWriter(resp.getOutputStream(), "utf-8");
-        writer.write(bizArray.toString());
-        writer.close();
-
-
     }
 }

@@ -9,8 +9,8 @@ public class DatabaseUtils
     {
     }
 
-    public static final String BIZ_NAME = "biz_name";
-    public static final String BIZ_ADDRESS = "biz_address";
+    public static final String BIZ_NAME = "business_name";
+    public static final String BIZ_ADDRESS = "business_address";
 
     public static final String OWNER_EMAIL = "owner_email";
 

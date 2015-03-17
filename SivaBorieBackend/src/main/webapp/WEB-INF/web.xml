@@ -12,7 +12,7 @@
 
      <servlet>
         <servlet-name>RecommendBizList</servlet-name>
-        <servlet-class>siva.borie.backend.business.RecommendedBusinessList</servlet-class>
+        <servlet-class>siva.borie.backend.business.RecommendedBusinessListServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>RecommendBizList</servlet-name>

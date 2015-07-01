@@ -5,6 +5,22 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <!-- Nav Drawer-->
+    <string name="nav_login">Login</string>
+    <string name="nav_services">Services</string>
+    <string name="nav_tools">Tools</string>
+
+    <!-- SIVA -->
+    <string name="siva">SIVA</string>
+    <string name="algorithm">ALGORITHM</string>
+
+    <!-- AUTH -->
+    <string name="sign_up">가입하기</string>
+
+
+    <!--Facebook -->
+    <string name="facebook_app_id">1571520856438370</string>
+
     <!--Geofence -->
     <string name="geofence_not_available">Geofence is not available</string>
     <string name="geofence_too_many_geofences">Too many geofences</string>
@@ -14,4 +30,7 @@
     <string name="geofence_transition_exited">geofence_exited</string>
     <string name="geofence_unknown_transition">geofence_unknown_transition</string>
     <string name="geofence_transition_notification_text">Geofence Tratinsiton</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+
 </resources>

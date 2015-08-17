@@ -6,6 +6,7 @@
     android:fitsSystemWindows="true"
     >
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -38,14 +39,23 @@
 
 
     <ListView
-        android:id="@+id/drawer_item_listview"
-        android:layout_width="240dp"
+        android:id="@+id/drawer_main_listview"
+        android:layout_width="300dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="#3F51B5"
         android:fitsSystemWindows="true"
+        android:background="#FFFFFF"
         android:divider="@android:color/transparent"
         />
+
+    <!--
+    <ListView
+        android:id="@+id/drawer_user_info_lisview"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+
+        -->
 
   </android.support.v4.widget.DrawerLayout>
 

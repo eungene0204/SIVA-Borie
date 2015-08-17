@@ -4,22 +4,27 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:minHeight="48dp"
+              android:background="#FFFFFF"
     >
 
+
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="12dp"
+        android:src="@drawable/ic_restaurant_menu_black_48dp"
         />
+
 
     <TextView
         android:id="@+id/drawer_item_all_service_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp"
-        android:layout_marginLeft="56dp"
+        android:layout_marginLeft="28dp"
         android:layout_marginTop="12dp"
+        android:textColor="#000000"
         />
 
 </LinearLayout>

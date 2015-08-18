@@ -18,6 +18,8 @@ public class NavDrawerItem
     {
         this.mType = mType;
         this.mId = id;
+
+
     }
 
     public NavDrawerItem(final ItemId id)
